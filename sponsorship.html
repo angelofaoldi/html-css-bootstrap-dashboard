@@ -184,7 +184,7 @@
                     </p>
 
                     <!-- DUE BOTTONI: SCOPRI DI PIù + CONTATTACI -->
-                    <div class="d-inline-block mb-5">
+                    <div class="d-inline-block mb-5 g-1">
 
                         <button class="btn btn-primary rounded-pill px-4 py-2 fs-5 mx-1" type="button">
                             Scopri di pi&ugrave;
@@ -197,63 +197,94 @@
                     </div>
                 </div> <!-- fine jumbotron -->
 
-                
+                <!-- è il momento delle offerte, la sezione pricing negli esempi di bootstrap va
+                semplicemente incollata e modificata un po' -->
 
+                <div class="row row-cols-1 row-cols-lg-3 text-center">
+
+                    <!-- row-cols-1 = dispone ogni prezzo sotto l'altro in modalità "normale" cioè mobile first -->
+
+                    <!-- row-cols-lg-3 = nel momento in cui il display è large "tablet/desktop" le colonne sono 3
+                    disposte in fila poiché in un'unica riga -->
+                    
+                    <!-- STRUTTURA A 3 COLONNE = 3 CARDS -->
+
+                    <!-- 1) GRATIS -->
+
+                    <div class="col pb-3">
+                        <div class="card mb-4 rounded-3 shadow-sm">
+
+                            <!-- card header: GRATIS -->
+                            <div class="card-header py-3">
+                                <h4 class="my-0 fw-normal">Gratis</h4>
+                            </div>
+
+                            <!-- card body: prezzi -->
+                            <div class="card-body">
+                                <h1 class="card-title pricing-card-title">
+                                    &euro; 0 <small class="text-body-secondary fw-light">/mese</small>
+                                </h1>
+
+                                <!-- lista dettagli offerta -->
+                                <ul class="list-unstyled mt-3 mb-4">
+                                    <li>10 utenti</li>
+                                    <li>2 GB di spazio</li>
+                                    <li>Pubblicit&agrave;</li>
+                                    <li>Supporto email</li>
+                                </ul>
+
+                                <!-- bottone PROSEGUI -->
+                                <button type="button" class="w-100 btn btn-lg btn-outline-primary">Prosegui</button>
+                            </div>
+                        </div>
+                    </div> <!-- fine prima card, adesso copiare e incollare e modificare -->
+
+                    <!-- 2) PREMIUM -->
+
+                    <div class="col pb-3">
+                        <div class="card mb-4 rounded-3 shadow-sm border-primary">
+                            <div class="card-header py-3 text-bg-primary border-primary">
+                                <h4 class="my-0 fw-normal">Premium</h4>
+                            </div>
+                            <div class="card-body">
+                                <h1 class="card-title pricing-card-title">&euro; 15<small
+                                        class="text-body-secondary fw-light">/mese</small></h1>
+                                <ul class="list-unstyled mt-3 mb-4">
+                                    <li>50 utenti</li>
+                                    <li>10 GB di spazio</li>
+                                    <li>Senza pubblicit&agrave;</li>
+                                    <li>Supporto email prioritario</li>
+                                </ul>
+                                <button type="button" class="w-100 btn btn-lg btn-primary">Prosegui</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 3) ENTERPRISE -->
+
+                    <div class="col">
+                        <div class="card mb-4 rounded-3 shadow-sm">
+                            <div class="card-header py-3">
+                                <h4 class="my-0 fw-normal">Enterprise</h4>
+                            </div>
+                            <div class="card-body">
+                                <h1 class="card-title pricing-card-title">&euro; 29<small
+                                        class="text-body-secondary fw-light">/mese</small></h1>
+                                <ul class="list-unstyled mt-3 mb-4">
+                                    <li>Utenti illimitati</li>
+                                    <li>Spazio illimitato</li>
+                                    <li>Senza pubblicit&agrave;</li>
+                                    <li>Supporto via email e chat</li>
+                                </ul>
+                                <button type="button" class="w-100 btn btn-lg btn-primary">Prosegui</button>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
             </div>
-
         </div>
-
     </main>
-
-    <!-- <div class="container w-50 text-decoration-none text-bg-secondary"> <!-- w-50 e px-4 = "te!" va a capo  -->
-
-        <!-- <div class="contenuto py-3 my-5 px-4"> <!-- w-50 e px-4 = "te!" va a capo  -->
-
-            <!-- 
-                "opacity-25" non rende "text-bg-secondary" grigio chiaro perché agisce su tutto il contenuto
-                "text-decoration-none" rende il testo bianco, sovrascrivendo il testo nero di "text-bg-secondary"
-            -->
-
-            <!-- <h4 class="text-center">Trova il piano perfetto per te!</h4> <!-- w-50 e px-4 = "te!" va a capo  -->
-
-            <!-- <div>
-                <p class="text-center">
-                    Scegli tra le nostre opzioni di abbonamento e goditi funzionalità esclusive e performance migliori
-                </p>
-            </div>
-
-            <div>
-                <h6 class="text-center fw-bold ">
-                    Porta la tua esperienza al livello successivo
-                </h6>
-            </div> -->
-
-            <!-- DUE BOTTONI: SCOPRI DI PIù + CONTATTACI -->
-            <!-- <div class="py-4 text-center" >
-                <button type="button" class="btn btn-primary btn-sm">Scopri di più</button>
-                <button type="button" class="btn btn-outline-light btn-sm">Contattaci</button>
-            </div> -->
-
-            <!-- 3 BOX DI MICROLAYOUT -->
-
-            <!-- <div class="container-expand-xl"> -->
-
-                <!-- 1) GRATIS -->
-
-                <!-- <div class="row"> -->
-
-                    <!-- <div class="col-"> -->
-
-                    <!-- </div> -->
-
-                <!-- </div> -->
-
-            <!-- </div> -->
-
-        <!-- </div> -->
-
-    <!-- </div>  -->
-
 
 
 
