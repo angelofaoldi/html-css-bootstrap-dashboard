@@ -73,13 +73,12 @@
         </div>
     </nav>
 
-       
 
     
       
     <!---------------------------------------------------------------------------------------------- SIDEBAR -->
 
-    <div class="d-none d-md-block p-3 text-bg-dark" style="width: 280px; height: 1000px;">
+    <div class="d-none d-md-block p-3 text-bg-dark z-index-1" style="width: 280px; height: 1000px;">
         <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-white text-decoration-none">
           <svg class="bi pe-none me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
           <span class="fs-4">Bootstrap Dashboard</span>
@@ -146,7 +145,36 @@
         </div>
     </div>
 
-    
+
+    <!-- non riesco ad inserire i contenuti dopo aver settato navbar e sidebar. 
+        vorrei che i contenuti andassero a destra dello schermo e non sotto la sidebar
+        perciò ho inserito un main che dovrà posizionarsi nello spazio bianco rimanente
+        dentro il main andranno poi inserite tutte le strutture di micro-layout -->
+
+    <main class="bd-main order-1">
+
+        <div class="container w-25 position-absolute top">
+
+            <div class="row">
+
+                <div class="col">
+
+                    <div>
+                        10 Prodotti Trovati
+                    </div>
+
+                    <div>
+                        Due Bottoni
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </main>
+        
 
 
 
